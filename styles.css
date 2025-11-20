@@ -1,0 +1,72 @@
+body {
+    background-color: #E9ECEF;
+    /* sayfa arka plan rengi */
+}
+
+.li-style {
+    list-style: square;
+    /* liste madde işareti stili */
+}
+
+#ul-style {
+    width: 200px;
+}
+
+#about-h2-style {
+    color: purple;
+}
+
+#products-h2-style {
+    color: rgb(190, 28, 82);
+}
+
+#product-button {
+    margin-left: 460px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* veya space-between */
+}
+
+.price-tag {
+    display: inline-block;
+    /* sadece yazı kadar genişlik */
+    padding: 4px 8px;
+    /* etrafına boşluk */
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.card img {
+    height: 150px;
+    /* hepsi aynı yükseklikte dursun */
+    object-fit: contain;
+    /* resim bozulmadan ortalansın */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* kapsayıcı yüksekliğine göre uzasın */
+}
+
+.card-img-top {
+    height: 180px;
+    /* tüm resimler aynı boyutta */
+    object-fit: contain;
+    /* taşmadan sığdır */
+}
+
+.product-name {
+    min-height: 50px;
+    /* tüm ürün isimleri eşit yer kaplasın */
+}
+
+span.span-text {
+    color: black;
+    text-decoration: line-through;
+}
